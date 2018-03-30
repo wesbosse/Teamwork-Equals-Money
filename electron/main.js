@@ -1,7 +1,7 @@
 const {app, BrowserWindow, ipcMain, Tray} = require('electron')
 const path = require('path')
 
-const assetsDirectory = path.join(__dirname, 'assets')
+const assetsDirectory = path.join(__dirname, 'build')
 
 let tray = undefined
 let window = undefined
@@ -20,7 +20,7 @@ app.on('window-all-closed', () => {
 })
 
 const createTray = () => {
-  tray = new Tray(path.join(assetsDirectory, 'sunTemplate.png'))
+  tray = new Tray(path.join(assetsDirectory, 'tem-icon.png'))
   tray.on('right-click', toggleWindow)
   tray.on('double-click', toggleWindow)
   tray.on('click', function (event) {
