@@ -1,0 +1,30 @@
+{
+  "name": "TeamworkEqualsMoney",
+  "version": "0.1.0",
+  "description": "Get off the bench.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir --icon='build/icon.png'",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/wesbosse/TeamworkEqualsMoney",
+  "keywords": [
+    "test"
+  ],
+  "author": "Wesley Bosse",
+  "license": "",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-builder": "^20.8.1"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
