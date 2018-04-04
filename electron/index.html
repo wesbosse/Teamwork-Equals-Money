@@ -12,11 +12,10 @@
 		<div class="window">
 			<div class="title-bar">Teamwork Equals Money</div>
 			<div class="nav-bar">
-				<div class="nav-item">Home</div>
-				<div class="nav-item">Stats</div>
-				<div class="nav-item">Settings</div>
+				<div class="nav-item home">Home</div>
+				<div class="nav-item about">About</div>
 			</div>
-			<div class="content">
+			<div class="home content show">
 				<h3>Let's mine some f***in' crypto!</h3>
 				<div id="stats">
 					<div>
@@ -36,7 +35,26 @@
 						<div id="threadsUsed">0</div>
 					</div>
 				</div>
-				<div id="controls">
+			</div>
+			<div class="about content hide">
+				<h3>What are we doing here?</h3>
+				<div id="links">
+					<div>
+						Hashes Per Second:
+						<div id="hashesPerSecond">0</div>
+					</div>
+					<div>
+						Total Hashes
+						<div id="totalHashes">0</div>
+					</div>
+					<div>
+						Accepted Hashes (dev mode):
+						<div id="acceptedHashes">0</div>
+					</div>
+					<div>
+						CPU Threads Being Used (currently set automatically based on current usage):
+						<div id="threadsUsed">0</div>
+					</div>
 				</div>
 			</div>
 		</div>

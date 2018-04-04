@@ -20,7 +20,7 @@ app.on('window-all-closed', () => {
 })
 
 const createTray = () => {
-  tray = new Tray(path.join(assetsDirectory, 'tem-icon.png'))
+  tray = new Tray(path.join(assetsDirectory, 'temIcon.png'))
   tray.on('right-click', toggleWindow)
   tray.on('double-click', toggleWindow)
   tray.on('click', function (event) {
@@ -48,8 +48,8 @@ const getWindowPosition = () => {
 
 const createWindow = () => {
   window = new BrowserWindow({
-    width: 600,
-    height: 450,
+    width: 300,
+    height: 500,
     show: false,
     frame: false,
     fullscreenable: false,

