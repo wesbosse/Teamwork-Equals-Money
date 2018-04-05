@@ -6,13 +6,11 @@ http://teamworkequals.money
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+MAC ONLY RIGHT NOW
 
 ```
 git clone https://github.com/wesbosse/Teamwork-Equals-Money.git
-cd Teamwork-Equals-Money
+cd Teamwork-Equals-Money/electron
 npm install
 npm start
 ```
